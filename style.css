@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background-image: url(./imgs/lifesux.webp);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
+/*Song title*/
+h1{
+    font-family: "Nosifer", serif;
+    font-size: 400%;
+}
+/*Styling textbox to scroll through lyrics*/
+.text-box{
+    width: 450px; 
+    height: 400px; 
+    overflow: auto; 
+    scroll-behavior: smooth;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    position: absolute;
+    margin-top: 400px;
+    left: 1000px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(7px);
+}
+/*Adding font family & changing font size for first and second verse*/
+.verse-one, .verse-two{
+    font-family: "Lacquer", serif;
+    font-size: xx-large;
+}
+/*Font family, font size and text shadow for pre-chorus'*/
+.pre-chorus-one, .pre-chorus-two{
+    font-family: "Lacquer", serif;
+    font-size: xx-large;
+    text-shadow: 2px 2px;
+}
+/*Styling the word burden in prechorus*/
+.burden{
+    font-family: "Frijole", serif;
+    font-size: larger;
+    font-size: 45px;
+    color: crimson;
+    text-decoration: line-through;
+}
+/*Styling the word memory in prechorus*/
+.memory{
+    font-family: "Rubik Glitch", serif;
+    text-shadow: 2px 2px;
+    font-size: 45px;
+    color: crimson;
+    text-decoration: underline;
+}
+/*Chorus one & two*/
+.chrous, .chorus-two{
+    font-family: "Faster One", serif;
+    font-size: 60px;
+    text-shadow: 2px 2px;
+    color: darkred;
+}
+/*Bridge lyrics, size weight & text shadow*/
+.bridge, .bridge-cont{
+    font-family: "Barrio", serif;
+    font-size: xx-large;
+    font-weight: 800;
+    text-shadow: 2px 2px;
+    
+}
+/*Styling outro lyrics*/
+.outro, .outro-two{
+    font-family: "Faster One", serif;
+    font-size: 60px;
+    text-shadow: 2px 2px;
+    color: darkred;
+}
+/*Font for every other line in outro*/
+.barrio{
+    font-family: "Barrio", serif;
+    font-size: xx-large;
+    text-shadow: 2px 2px;
+    text-decoration: line-through;
+    font-weight: 800;
+    color: black;
+}
+.art > a > img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*iFrame video*/
+footer > .song{
+    margin-top: 850px;
+    margin-right: 1100px;
+}
